@@ -22,23 +22,37 @@
 			sizes="16x16"
 			href="/favicon-16x16.png"
 		/>
-        <link rel="manifest" href="/site.webmanifest" />
-        <link rel="stylesheet" href="assets/css/style.css">
+		<link rel="manifest" href="/site.webmanifest" />
+		<link rel="stylesheet" href="assets/css/style.css" />
 	</head>
 	<body>
-        <section id="main">
-            <div class="container">
-                <div class="emoji-wrapper">
-                    <img id="emoji" src="assets/img/1sleeping-animated-emoji.gif" alt="emoji">
-                    <div id="text-wrapper">
-                        <p id="text">Shh! I'm sleeping. How many kisses do you want to give me to stay awake?</p>
-                    </div>
-                    <div id="input-wrapper">
-                        <input name="given" id="given" type="number"required>
-                        <button id="give" class="btn">Kisses</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </body>
+		<section id="main">
+			<div class="container">
+				<div class="emoji-wrapper">
+					<img
+						id="emoji"
+						src="assets/img/1sleeping-animated-emoji.gif"
+						alt="emoji"
+					/>
+					<div id="text-wrapper">
+						<p id="text">
+							Shh! I'm sleeping. How many kisses do you want to
+							give me to stay awake?
+						</p>
+					</div>
+					<div id="input-wrapper">
+						<input
+							aria-label="given number"
+							name="given"
+							id="given"
+							type="number"
+							required
+						/>
+						<button id="give" class="btn">Kisses</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="assets/js/main.js"></script>
+	</body>
 </html>
