@@ -5,6 +5,7 @@ Fun little project for my daughter using a simple JS function to display a diffe
 
 ![Screenshot](giveMe.png)
 
+Play - [Demo](https://javavista.github.io/GiveMeAKiss/)
 
 ## Technology
 
