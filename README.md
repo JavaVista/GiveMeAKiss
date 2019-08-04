@@ -1,5 +1,5 @@
 # GiveMeAKiss
-Fun little project for my daughter using a simple JS function to display an Emoji base on the result of a number input
+Fun little project for my daughter using a simple JS function to display a different type of Emoji base on the result of a number input
 
 ### Screenshot
 
